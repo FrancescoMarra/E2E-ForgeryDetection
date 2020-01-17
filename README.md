@@ -2,6 +2,7 @@
 Code for "A Full-Image Full-Resolution End-to-End-Trainable CNN Framework for Image Forgery Detection"
 The paper can be found on [arxiv](https://arxiv.org/abs/1909.06751).
 
+![teaser](E2Eframework.png)
 
 ## Test
 To run the code on given test dataset, type:
@@ -32,3 +33,14 @@ For any problem or comment, do not hesitate to contact me.
     primaryClass={cs.CV}
 }
 ```
+
+## License
+Copyright (c) 2019 Image Processing Research Group of University Federico II of Naples ('GRIP-UNINA').
+
+All rights reserved.
+
+This software should be used, reproduced and modified only for informational and nonprofit purposes.
+
+By downloading and/or using any of these files, you implicitly agree to all the
+terms of the license, as specified in the document LICENSE.txt
+(included in this package) 
