@@ -8,7 +8,7 @@ To run the code on given test dataset, type:
 ```
 python test.py -m=FUSION
 ```
-This will run the fusion of the three models proposed in the paper (E2E-FUSION) on images in ./test/ directory.
+This will run the fusion of the three models proposed in the paper (E2E-FUSION) on images in ./test/ directory.  
 For running on a single modality, change 'mode' parameter: 'RGB'-'N'-'RGN'
 
 ## Test on Your Dataset
@@ -16,8 +16,9 @@ To run the code on your own dataset, type:
 ```
 python test.py --te=PATH_TO_YOUR_DATASET
 ```
-Where PATH_TO_YOUR_DATASET is organized with two subfolder: '0' contains pristine images and '1' contains forged images.
-Modify the test.py file according to your needs.
+Where PATH_TO_YOUR_DATASET is organized with two subfolder: '0' contains pristine images and '1' contains forged images.  
+Modify the test.py file according to your needs.  
+
 For any problem or comment, do not hesitate to contact me.
 
 ## Citation
