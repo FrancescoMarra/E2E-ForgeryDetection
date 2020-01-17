@@ -67,6 +67,7 @@ if __name__ == '__main__':
     parser.add_argument('-train_dataset','--train_dataset', type=str, default='E2E')
     parser.add_argument('-test_dataset','--test_dataset', type=str, default='./test/')
 
+
     config, _ = parser.parse_known_args()
     parameters.use_cuda = torch.cuda.is_available() # To run on CPU when GPUs are not available
     parameters.mode = config.mode
