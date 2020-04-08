@@ -4,6 +4,9 @@ The paper can be found on [arxiv](https://arxiv.org/abs/1909.06751).
 
 ![teaser](E2Eframework.png)
 
+## Pretrained weights
+Download the model weights in ./model/E2E folder from [here](http://www.grip.unina.it/index.php?option=com_content&view=article&id=79&Itemid=489&jsmallfib=1&dir=JSROOT/E2E)
+
 ## Test
 To run the code on given test dataset, type:
 ```
